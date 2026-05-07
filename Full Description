@@ -1,0 +1,116 @@
+# Pune Metro Ticketing System 🚇
+
+A simple console-based Pune Metro Ticketing System developed in C++.
+
+This mini project demonstrates the use of:
+- Arrays
+- Strings
+- Loops
+- If-Else Statements
+- 2D Arrays
+- User Input Handling
+
+---
+
+## Features
+
+✅ Display Pune Metro Stations  
+✅ Fare Calculation using 2D Array  
+✅ Student Discount System  
+✅ Ticket Printing  
+✅ Multiple Ticket Booking  
+✅ Input Validation  
+
+---
+
+## Technologies Used
+
+- C++
+- VS Code
+- g++
+
+---
+
+## Stations Included
+
+1. PCMC  
+2. Sant Tukaram Nagar  
+3. Nashik Phata  
+4. Shivajinagar  
+5. Civil Court  
+
+---
+
+## How to Run
+
+### Compile
+```bash
+g++ main.cpp -o metro
+```
+
+### Run
+```bash
+./metro
+```
+
+---
+
+## Sample Output
+
+```text
+========== Pune Metro Ticketing System ==========
+
+Available Stations:
+
+1. PCMC
+2. Sant Tukaram Nagar
+3. Nashik Phata
+4. Shivajinagar
+5. Civil Court
+
+Enter Passenger Name: Aditya
+Enter Source Station Number: 1
+Enter Destination Station Number: 5
+
+Are you a Student? (y/n): y
+
+20% Student Discount Applied!
+
+====================================
+          PUNE METRO TICKET
+====================================
+Passenger Name : Aditya
+Source Station : PCMC
+Destination    : Civil Court
+Total Fare     : Rs. 32
+====================================
+Ticket Booked Successfully!
+====================================
+```
+
+---
+
+## Learning Objectives
+
+This project helps beginners understand:
+- Basic C++ programming
+- Arrays and loops
+- Conditional statements
+- Console-based project development
+
+---
+
+## Future Improvements
+
+- QR Ticket Simulation
+- File Handling
+- Admin Login
+- Metro Card System
+- Real-Time Fare System
+- GUI Version
+
+---
+
+## Author
+
+Aditya Jadhav
